@@ -1,5 +1,135 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
 }
 
+#header {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo_ifrj {
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+}
+
+#menu_header {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5%;
+  /* padding-left: 5%; */
+}
+
+#menu_header a img {
+  width: 30px;
+  height: auto;
+}
+
+#body {
+  display: flex;
+  flex-direction: row;
+}
+
+#section_form {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  height: auto;
+  background-color: #428829;
+  border-radius: 46px;
+  margin-top: 20px;
+  margin-left: 70px;
+  box-shadow: 2px 7px 15px #777;
+  padding: 4% 0% 4% 3%;
+}
+
+#section_img_body {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section_img_body img {
+  height: 38vh;
+  opacity: 85%;
+}
+
+#lbl_nome {
+  color: white;
+  font-size: 18px;
+}
+
+#ipt_nome {
+  border-bottom: 1px;
+  border: 1px solid white;
+  caret: #428829;
+  background-color: white;
+  border-radius: 6px;
+  outline: none;
+  width: 90%;
+  color: black;
+  margin: 1% 0 4% 0;
+  height: 8px;
+  padding: 2%;
+  box-shadow: 2px 7px 15px #245C10;
+  caret-color: #428829;
+}
+
+#lbl_regTrab {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 1%;
+}
+
+.lbl_options {
+  color: white;
+  font-size: 16px;
+}
+
+.ipt_options {
+  scale: 115%;
+}
+
+.ipt_options:checked {
+  accent-color: #428829;
+}
+
+.ipt_options:hover {
+  cursor: pointer;
+}
+
+#lbl_dias_turnos {
+  color: white;
+  font-size: 18px;
+  margin: 4% 0 4% 0;
+}
+
+table {
+  border-radius: 32px;
+  height: 35vh;
+  width: 93%;
+  background-color: white;
+  overflow: hidden;
+
+}
+
+#theadB {
+  border-bottom: 4px solid #428829;
+  width: 25%;
+  
+}
+
+#turnos {
+  color: black;
+  font-size: 13px;
+  padding: 0 2% 0 2%;
+  border-left: 4px solid #428829;
+}

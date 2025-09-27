@@ -26,13 +26,13 @@ export default function App() {
                   justify-between
                   ">
 
-        <a href="https://www.ifrj.edu.br/" target="_blank" className="
+        <a id="logo_ifrj" href="https://www.ifrj.edu.br/" target="_blank" className="
                   ml-[5%]
                   flex
                   items-center">
           <img src="/assets/ifrj-logo.png" alt="logo IFRJ"/>
         </a>
-        <div className="
+        <div id="menu_header" className="
                   w-[25%]
                   flex
                   flex-row
@@ -58,9 +58,9 @@ export default function App() {
           
         </div>
       </section>
-      <div className="flex
+      <div id="body" className="flex
       flex-row">
-        <section className="
+        <section id="section_form" className="
                   flex
                   flex-col
                   xl:w-[45vw]
@@ -84,7 +84,7 @@ export default function App() {
           <BtnEnviar valueNome={valueNome} valueRegTrab={valueRegTrab} valueMaterias={turmas_select} valueObs={valueObs} valueSelecionados={selecionados} />
         </section>
 
-        <section className="
+        <section id="section_img_body" className="
                 w-[45%]
                 flex
                 items-center

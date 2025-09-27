@@ -11,14 +11,14 @@ export default function InputName({value, setValueNome}){
 
     return (
         <>
-            <label 
+            <label id="lbl_nome"
                 htmlFor="iptName"
                 className="
                     text-white
                     text-[18px]">Digite seu nome completo:</label>
             <input 
                 type="text" 
-                id="iptName" 
+                id="ipt_nome" 
                 value={value} 
                 onChange={(e)=>setValueNome(e.target.value)} 
                 className="border-white

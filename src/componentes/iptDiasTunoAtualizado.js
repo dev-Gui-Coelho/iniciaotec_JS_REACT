@@ -27,22 +27,14 @@ export default function IptDiasTurnoAtualizado({selecionados, setSelecionados}){
 
     return(
         <div>
-            <h6 className="text-white text-[18px] mt-[4%] mb-[5%]">
+            <h6 id="lbl_dias_turnos">
                 Todos os professoraes deverão assinalar <strong>4 opções de dias por turno</strong> em que leciona:
             </h6>
-            <table className="
-                                rounded-[32px] 
-                                h-[35vh] 
-                                w-[93%] 
-                                bg-white 
-                                overflow-hidden">
+            <table >
             <thead>
-                <tr className="
-                                w-[25%]
-                                border-b-4
-                                border-b-[#428829]">
+                <tr id="theadB">
                 <th></th>
-                    {turnos.map(turno => <th key={turno.key} className="text-black text-[13px] pl-[2%] pr-[2%] border-l-4 border-l-[#428829]">{turno.label}</th>)}
+                    {turnos.map(turno => <th id="turnos" key={turno.key} className="text-black text-[13px] pl-[2%] pr-[2%] border-l-4 border-l-[#428829]">{turno.label}</th>)}
                 </tr>
             </thead>
 
