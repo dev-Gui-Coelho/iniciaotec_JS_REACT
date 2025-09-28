@@ -32,40 +32,23 @@ export default function IptDiasTurnoAtualizado({selecionados, setSelecionados}){
             </h6>
             <table >
             <thead>
-                <tr id="theadB">
-                <th></th>
-                    {turnos.map(turno => <th id="turnos" key={turno.key} className="text-black text-[13px] pl-[2%] pr-[2%] border-l-4 border-l-[#428829]">{turno.label}</th>)}
+                <tr id="linha_1">
+                <th id="empty_cell"></th>
+                    {turnos.map(turno => <th id="turnos" key={turno.key}>{turno.label}</th>)}
                 </tr>
             </thead>
 
             <tbody>
                 {dias.map(dia => (
-                <tr key={dia} className="
-                                h-[45px]
-                                border-b-4
-                                border-b-[#428829]
-                                shadow-[inset_0_0_15px_#afafaf]">
-
-                    <td className="
-                                p-[1%] 
-                                flex
-                                flex-row
-                                justify-around
-                                ">{dia}</td>
+                <tr key={dia}>
+                    <td className="dias_semana">{dia}</td>
                     {turnos.map(turno => (
-                        <td key={turno.key} className="
-                                border-l-4
-                                border-l-[#428829]
-                                w-[24%]
-                                pl-[10%]">
-
+                        <td key={turno.key} className="ipt_celulas">
                             <input
                             type="checkbox"
                             checked={!!selecionados[`${dia}|${turno.key}`]}
                             onChange={(e) => handleCheckbox(dia, turno.key, e.target.checked)}
-                            className="scale-[125%]
-                                accent-[#428829]
-                                cursor-pointer"/>
+                            id="ipt_turno_dia"/>
                         </td>
                     ))}
                 </tr>
