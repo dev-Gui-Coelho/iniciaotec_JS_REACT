@@ -58,7 +58,8 @@
 }
 
 #section_img_body img {
-  height: 38vh;
+  height: auto;
+  width: 30vw;
   opacity: 85%;
 }
 
@@ -70,14 +71,14 @@
 #ipt_nome {
   border-bottom: 1px;
   border: 1px solid white;
-  caret: #428829;
+  caret-color: #428829;
   background-color: white;
   border-radius: 6px;
   outline: none;
   width: 90%;
   color: black;
   margin: 1% 0 4% 0;
-  height: 8px;
+  height: 6px;
   padding: 2%;
   box-shadow: 2px 7px 15px #245C10;
   caret-color: #428829;
@@ -159,10 +160,18 @@ tbody tr{
   width: 24%;
   padding-left: 11%;
 }
+
 #ipt_turno_dia{
   scale: 125%;
   border: none;
 }
+#ipt_turno_dia:hover{
+  cursor: pointer;
+}
 #ipt_turno_dia:checked{
   accent-color: #428829;
+}
+
+#lbl_select_turmas{
+  
 }

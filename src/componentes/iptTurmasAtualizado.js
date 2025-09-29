@@ -59,7 +59,7 @@ export default function IptTurmasAtt({turmas_select, setLista}){
 
     return(
         <>
-            <label className="text-white text-[18px] w-[95%] mt-[4%]">Turmas - Após acordo com seus pares, especifique as diciplinas e turmas em que lecionará: 
+            <label id="lbl_select_turmas" className="text-white text-[18px] w-[95%] mt-[4%]">Turmas - Após acordo com seus pares, especifique as diciplinas e turmas em que lecionará: 
             </label>
             <div>
                 <select className="border-white border-1 rounded-[6px] text-black bg-white w-[20%] text-center cursor-pointer shadow-[2px_7px_15px_#245C10] mt-[2%] mb-[3%]"
