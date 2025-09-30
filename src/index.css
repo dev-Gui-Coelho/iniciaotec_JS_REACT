@@ -75,13 +75,12 @@
   background-color: white;
   border-radius: 6px;
   outline: none;
-  width: 90%;
+  width: 88%;
   color: black;
   margin: 1% 0 4% 0;
   height: 6px;
   padding: 2%;
   box-shadow: 2px 7px 15px #245C10;
-  caret-color: #428829;
 }
 
 #lbl_regTrab {
@@ -110,6 +109,7 @@
 
 #lbl_dias_turnos {
   color: white;
+  width: 95%;
   font-size: 18px;
   margin: 4% 0 4% 0;
 }
@@ -173,5 +173,131 @@ tbody tr{
 }
 
 #lbl_select_turmas{
-  
+  color: white;
+  font-size: 18px;
+  width: 95%;
+  margin-top: 4%;
+}
+
+select{
+  border: 1px solid white;
+  border-radius: 6px;
+  color: black;
+  background-color: white;
+  width: 20%;
+  height: 25px;
+  text-align: center;
+  box-shadow: 2px 7px 15px #245C10;
+  margin: 2% 0 3% 0;
+}
+select:hover{
+  cursor:pointer;
+}
+
+#btn_add{
+  width: 90px;
+  height: 25px;
+  border: 1px solid white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left:3%;
+  background-color: white;
+  box-shadow: 2px 7px 15px #245C10;
+  transition: all .5s;
+  font-size: 15px;
+}
+#btn_add:hover{
+  cursor: pointer;
+  background-color: #8ab25c;
+  /* border: 1px solid white;
+  color: black; */
+}
+
+#materias_turma_select{
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  flex-wrap: wrap;
+  gap:10%;
+  align-items: center;
+}
+#lbl_materia{
+  display: block;
+  width: 40%;
+  margin: 2% 0 3% 5%;
+  color: white;
+  width: 35%;
+}
+#lbl_materia:hover{
+  cursor: pointer;
+}
+
+#ipt_materias{
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  margin: 0 1% 2% 0;
+  accent-color: #428842;
+}
+#ipt_materias:hover{
+  cursor: pointer;
+}
+
+#card_turmas_selecionadas{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#btn_excluir{
+  margin-left: 4%;
+  border-radius: 16px;
+  padding: 0 1% 0 1%;
+  border: none;
+  box-shadow: 2px 7px 15px #245C10;
+}
+#btn_excluir:hover{
+  cursor: pointer;
+}
+
+#trash_img{
+  height: auto;
+  width: 20px;
+  padding: 5% 0 5% 0;
+  margin: 0 5px;
+}
+
+#lista_turmas_selecionadas{
+  color: white;
+  list-style: none;
+  margin-bottom: 3%;
+  font-size: 16px;
+  width: 90%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+
+#lbl_obs{
+  color: white;
+  font-size: 18px;
+}
+
+textarea{
+  border: 1px solid white;
+  width: 95%;
+  resize: both;
+  overflow: auto;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2%;
+  box-shadow: 2px 7px 15px #245C10;
+  caret-color: #428842;
+  outline: none;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+textarea:focus{
+  outline: #428829;
 }

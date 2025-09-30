@@ -2,7 +2,7 @@
 export default function IptObservacao({value, setValueObs}){
     return(
         <>
-            <label className="text-white text-[18px]">Observações:</label>
+            <label id="lbl_obs">Observações:</label>
             {/* TEXT AREA PARA SER EDITAVEL O TAMANHO EXIBIDO */}
             <textarea
                 className="border-1 border-white w-[95%] bg-white rounded-[15px] p-[2%] focus:outline-[#428829] shadow-[2px_7px_15px_#245C10] caret-[#428829]"
