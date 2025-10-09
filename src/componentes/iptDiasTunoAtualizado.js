@@ -21,9 +21,9 @@ export default function IptDiasTurnoAtualizado({selecionados, setSelecionados}){
     [selecionados]
     );
 
-    useEffect(() => {
-    console.log(marcados);
-    }, [marcados]);
+    // useEffect(() => {
+    // console.log(marcados);
+    // }, [marcados]);
 
     return(
         <div>

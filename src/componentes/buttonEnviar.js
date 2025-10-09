@@ -3,6 +3,7 @@ export default function BtnEnviar({valueNome, valueRegTrab ,valueObs, valueSelec
     return(
         <>
             <button 
+            id="btn_enviar"
             type="submit" 
             className="w-[100px] cursor-pointer px-[4px] rounded-sm mt-3  bg-white hover:bg-[#428829] 
                                 hover:border-1

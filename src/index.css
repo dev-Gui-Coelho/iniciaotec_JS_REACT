@@ -28,7 +28,7 @@
 }
 
 #menu_header a img {
-  width: 30px;
+  width: 26px;
   height: auto;
 }
 
@@ -199,7 +199,7 @@ select:hover{
   height: 25px;
   border: 1px solid white;
   padding: 2px 4px;
-  border-radius: 4px;
+  border-radius: 3px;
   margin-left:3%;
   background-color: white;
   box-shadow: 2px 7px 15px #245C10;
@@ -286,9 +286,6 @@ select:hover{
 
 textarea{
   border: 1px solid white;
-  width: 95%;
-  resize: both;
-  overflow: auto;
   background-color: white;
   border-radius: 15px;
   padding: 2%;
@@ -300,4 +297,26 @@ textarea{
 }
 textarea:focus{
   outline: #428829;
+}
+
+#btn_enviar{
+  width: 100px;
+  background-color: white;
+  transition: all .5s;
+  box-shadow: 2px 7px 15px #245C10;
+  padding: 4px;
+  border: none;
+  border-radius: 3px;
+}
+#btn_enviar:hover{
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: #8ab25c;
+}
+
+
+@media (max-width: 1024px) {
+  #body{
+    background-color: red;
+  }
 }
