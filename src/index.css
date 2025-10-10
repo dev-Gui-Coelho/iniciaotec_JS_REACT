@@ -282,6 +282,7 @@ select:hover{
 #lbl_obs{
   color: white;
   font-size: 18px;
+  margin-top: 3%;
 }
 
 textarea{
@@ -314,9 +315,43 @@ textarea:focus{
   background-color: #8ab25c;
 }
 
-
+/* TABLET */
 @media (max-width: 1024px) {
+  #header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  #logo_ifrj {
+    margin-left: 5%;
+  }
   #body{
-    background-color: red;
+    padding-bottom: 3%;
+  }
+  #section_form {
+    width: 85vw;
+    height: auto;
+    margin: 0 auto 15% auto;
+  }
+  #section_img_body {
+    width: 0%;
+  }
+  #section_img_body img {
+    visibility: hidden;
+  }
+  #div_reg{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #btn_enviar{
+    margin-bottom: 10%;
+}
+}
+
+/* CELULARES */
+@media (max-width: 767px){
+  #body{
+    background-color: aqua;
   }
 }

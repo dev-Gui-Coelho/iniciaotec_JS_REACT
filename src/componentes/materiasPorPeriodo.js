@@ -69,10 +69,10 @@ export const materiaPorTurmas = {
                 "Geografia V",
                 "Historia V",
                 "Ingles Instrumental III",
-                "Língua Portuguesa e Literatura Brasileira V",
-                "Matematica V",
-                "Projeto Computacional I",
                 "Sistema Operacionais",
+                "Projeto Computacional I",
+                "Matematica V",
+                "Língua Portuguesa e Literatura Brasileira V",
             ],
             "INF-261": [
                 "Biologia VI",
