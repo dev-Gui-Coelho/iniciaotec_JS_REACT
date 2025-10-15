@@ -12,10 +12,7 @@ export default function InputName({value, setValueNome}){
     return (
         <>
             <label id="lbl_nome"
-                htmlFor="iptName"
-                className="
-                    text-white
-                    text-[18px]">Digite seu nome completo:</label>
+                htmlFor="iptName">Digite seu nome completo:</label>
             <input 
                 type="text" 
                 id="ipt_nome" 

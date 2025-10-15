@@ -45,7 +45,7 @@
   background-color: #428829;
   border-radius: 46px;
   margin-top: 20px;
-  margin-left: 70px;
+  margin-left: auto;
   box-shadow: 2px 7px 15px #777;
   padding: 4% 0% 4% 3%;
 }
@@ -149,7 +149,7 @@ tbody tr{
 }
 
 .dias_semana{
-  padding: 1%;
+  padding: 1%; 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -303,6 +303,7 @@ textarea:focus{
 #btn_enviar{
   width: 100px;
   background-color: white;
+  color:black;
   transition: all .5s;
   box-shadow: 2px 7px 15px #245C10;
   padding: 4px;
@@ -317,6 +318,10 @@ textarea:focus{
 
 /* TABLET */
 @media (max-width: 1024px) {
+  #lbl_nome,#lbl_regTrab,#lbl_dias_turnos,#lbl_select_turmas,#lbl_obs{
+    font-size: 14px;
+    margin-left: 5%;
+  }
   #header {
     width: 100vw;
     height: 10vh;
@@ -351,7 +356,42 @@ textarea:focus{
 
 /* CELULARES */
 @media (max-width: 767px){
-  #body{
-    background-color: aqua;
+  #lbl_nome,#lbl_regTrab,#lbl_dias_turnos,#lbl_select_turmas,#lbl_obs{
+    font-size: 14px;
+    margin-left: 5%;
   }
+  .lbl_options{
+    font-size: 14px;
+  }
+  #header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  #logo_ifrj {
+    margin-left: 5%;
+  }
+  #logo_ifrj img{
+    width: 60%;
+  }
+  #menu_header{
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+    padding-right: 5%;
+    margin-right: 3%;
+  }
+  #menu_header a img{
+    width: 14px;
+    height: auto;
+  }
+  #body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
 }
