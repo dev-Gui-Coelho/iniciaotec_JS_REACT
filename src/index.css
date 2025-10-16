@@ -48,6 +48,7 @@
   margin-left: auto;
   box-shadow: 2px 7px 15px #777;
   padding: 4% 0% 4% 3%;
+  
 }
 
 #section_img_body {
@@ -109,7 +110,7 @@
 
 #lbl_dias_turnos {
   color: white;
-  width: 95%;
+  width: 90%;
   font-size: 18px;
   margin: 4% 0 4% 0;
 }
@@ -322,6 +323,7 @@ textarea:focus{
     font-size: 14px;
     margin-left: 5%;
   }
+  
   #header {
     width: 100vw;
     height: 10vh;
@@ -356,12 +358,45 @@ textarea:focus{
 
 /* CELULARES */
 @media (max-width: 767px){
-  #lbl_nome,#lbl_regTrab,#lbl_dias_turnos,#lbl_select_turmas,#lbl_obs{
+  #lbl_nome,#lbl_regTrab,#lbl_select_turmas,#lbl_obs{
     font-size: 14px;
     margin-left: 5%;
   }
+  #lbl_dias_turnos{
+    width: 95%;
+    font-size: 14px;
+    margin-left: 5%;
+  }
+  #ipt_nome{
+    margin-left: 2%;
+    margin-top:3%;
+  }
+  table{
+    margin-left: 2%;
+  }
+  .dias_semana{
+    font-size: 12px;
+    align-items: center;
+  }
+  .ipt_celulas{
+    padding-left: 10%;
+  }
+  select{
+    margin-left: 5%;
+    width: 30vw;
+  }
   .lbl_options{
     font-size: 14px;
+  }
+  #lista_turmas_selecionadas{
+    font-size: 14px;
+    margin-left: 5%;
+  }
+  textarea{
+    margin-left: 4%;
+  }
+  #btn_enviar{
+    margin-left: 5%;
   }
   #header {
     width: 100vw;

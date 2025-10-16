@@ -10,7 +10,7 @@ export default function IptObservacao({value, setValueObs}){
                 cols={40}
                 
                 onChange={(e)=>setValueObs(e.target.value)}
-                style={{ resize: 'vertical', overflow: 'auto', width: '90%',minHeight: '70px', minWidth: '35%', maxHeight:'250px', maxWidth:'95%'}}>
+                style={{ resize: 'vertical', overflow: 'auto', width: '86%',minHeight: '70px', minWidth: '35%', maxHeight:'250px', maxWidth:'95%'}}>
                 
             </textarea>
         </>
